@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Work\\angular\\Lab6\\Lap6.csproj": {}
+    "D:\\Work\\angular\\Lab6\\Lap6.csproj": {}
   },
   "projects": {
-    "d:\\Work\\angular\\Lab6\\Lap6.csproj": {
+    "D:\\Work\\angular\\Lab6\\Lap6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Work\\angular\\Lab6\\Lap6.csproj",
+        "projectUniqueName": "D:\\Work\\angular\\Lab6\\Lap6.csproj",
         "projectName": "Lap6",
-        "projectPath": "d:\\Work\\angular\\Lab6\\Lap6.csproj",
+        "projectPath": "D:\\Work\\angular\\Lab6\\Lap6.csproj",
         "packagesPath": "C:\\Users\\User4\\.nuget\\packages\\",
-        "outputPath": "d:\\Work\\angular\\Lab6\\obj\\",
+        "outputPath": "D:\\Work\\angular\\Lab6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\dotnet\\sdk\\NuGetFallbackFolder"

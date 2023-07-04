@@ -41,8 +41,8 @@ namespace Csharp {
                     i--;
                     continue;
                 }
-                // numbers[i] =  
-                // sum += numbers[i];
+                numbers[i] = double.Parse(number);
+                sum += numbers[i];
             }
             return numbers;
         }
