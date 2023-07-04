@@ -2,7 +2,8 @@ using System;
 
 namespace Csharp {
     public class A2{
-        double sum = 0;
+        private double sum = 0;
+        private double search = 0.0;
         public void main(){
 
             Console.Write("how many number :> ");
@@ -13,7 +14,7 @@ namespace Csharp {
                 double[] result = data(data_amount);
                 
                 Console.Write($"input data to search :> ");
-                double search =  double.Parse(Console.ReadLine());
+                search =  double.Parse(Console.ReadLine());
                 Console.WriteLine("\nindex");
                 for ( int i=0 ; i<data_amount ; i++) {
                     Console.Write($"{i}\t\t");
@@ -21,6 +22,7 @@ namespace Csharp {
                 Console.WriteLine("\n");
                 foreach ( double number in result ){
                     Console.Write($"{number}\t\t");
+                    if(number == this.search) sum += number;
                 }
                 Console.WriteLine("\n\n");
                 Console.WriteLine("data\tsum");
@@ -42,7 +44,6 @@ namespace Csharp {
                     continue;
                 }
                 numbers[i] = double.Parse(number);
-                sum += numbers[i];
             }
             return numbers;
         }
