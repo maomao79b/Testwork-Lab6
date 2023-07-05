@@ -21,12 +21,12 @@ namespace Csharp {
                 }
                 Console.WriteLine("\n");
                 foreach ( double number in result ){
-                    Console.Write($"{number}\t\t");
+                    Console.Write($"{number:F1}\t\t");
                     if(number == this.search) sum += number;
                 }
                 Console.WriteLine("\n\n");
                 Console.WriteLine("data\tsum");
-                Console.WriteLine($"{search}\t{sum}");
+                Console.WriteLine($"{search:F1}\t{sum:F1}");
             }
 
         }

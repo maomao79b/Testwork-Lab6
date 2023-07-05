@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\work\\Testwork\\Lab6\\Lap6.csproj": {}
+    "D:\\Work\\angular\\Lab6\\Lap6.csproj": {}
   },
   "projects": {
-    "D:\\work\\Testwork\\Lab6\\Lap6.csproj": {
+    "D:\\Work\\angular\\Lab6\\Lap6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\work\\Testwork\\Lab6\\Lap6.csproj",
+        "projectUniqueName": "D:\\Work\\angular\\Lab6\\Lap6.csproj",
         "projectName": "Lap6",
-        "projectPath": "D:\\work\\Testwork\\Lab6\\Lap6.csproj",
-        "packagesPath": "C:\\Users\\jpbpr\\.nuget\\packages\\",
-        "outputPath": "D:\\work\\Testwork\\Lab6\\obj\\",
+        "projectPath": "D:\\Work\\angular\\Lab6\\Lap6.csproj",
+        "packagesPath": "C:\\Users\\User4\\.nuget\\packages\\",
+        "outputPath": "D:\\Work\\angular\\Lab6\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jpbpr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }
