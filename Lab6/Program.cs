@@ -18,8 +18,11 @@ namespace Csharp
       // A4 a4 = new A4();
       // a4.main();
 
-      A5 a5 = new A5();
-      a5.main();      
+      // A5 a5 = new A5();
+      // a5.main();  
+
+      A6 a6 = new A6();
+      a6.main();    
 
     }
   }
